@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PROTECT SMR</title>
+    <link rel="icon" href="https://drive.google.com/file/d/1A9dw8nXYnVSfkTs7SiNA-8b0Kz087J9j/view?usp=sharing" />
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #eee;
+overflow: hidden; /* Mencegah scroll ganda */
+}
+
+.iframe-container {
+    width: 100%;
+    height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
+    overflow: hidden;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+</style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe
+            id="app"
+            src="https://script.google.com/macros/s/AKfycbyfPJs-rjS3Sqa78-MnCO303qYh5VdUhW1KCjD3zFi9mW305KmI4rhS1PHKZwtClj-5/exec"
+            scrolling="yes"
+            allowfullscreen="true"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allow="fullscreen; camera; microphone; display-capture; geolocation;">
+        </iframe>
+    </div>
+</body>
+</html>
